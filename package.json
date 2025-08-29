@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-netlify-cms-starter-template",
+  "version": "2.0.0",
+  "description": "Build server-less, static websites with Vue.js and Netlify CMS.",
+  "main": "meta.js",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ci:test": "node generate-test.js && cd test && npm install && npm run generate",
+    "vue-cli:init": "rm -rf test && vue init . test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renestalder/nuxt-netlify-cms-starter-template.git"
+  },
+  "keywords": [
+    "nuxt",
+    "vuejs",
+    "netlify",
+    "serverless",
+    "jamstack"
+  ],
+  "author": "René Stalder <renestalder@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renestalder/nuxt-netlify-cms-starter-template/issues"
+  },
+  "homepage": "https://github.com/renestalder/nuxt-netlify-cms-starter-template#readme",
+  "devDependencies": {
+    "@vue/cli": "^3.2.3",
+    "@vue/cli-init": "^3.2.0",
+    "suppose": "^0.6.2"
+  }
+}
